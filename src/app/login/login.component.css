@@ -1,0 +1,144 @@
+.flex{
+    background-image: url(src\assets\backgroundSVG.svg);
+    background-repeat: no-repeat;
+    background-position: 100% 30%;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.painel-cadastro{
+    width: 45%;
+    height: 68%;
+    background-color: rgba(255, 255, 255, 0.719);
+    margin: 14% 0% 0% 53.6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3%;
+}
+
+nav{
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.836), rgba(0, 0, 0, 0.096));
+}
+
+.barra1{
+    position: absolute;
+    width: 33%;
+    height: 5%;
+    margin: 9% 0% 0% 1%;
+    background-color: #793AED;
+    align-items: center;
+    display: flex;
+    font-size: 120%;
+    font-weight: 600;
+    color: white;
+}
+
+.barra2{
+    position: absolute;
+    width: 33%;
+    height: 5%;
+    margin: 13% 0% 0% 3%;    
+    position: absolute;
+    background-color: #004F9E;
+    align-items: center;
+    display: flex;
+    font-size: 120%;
+    font-weight: 600;
+    color: white;
+}
+
+.barra3{
+    position: absolute;
+    width: 33%;
+    height: 5%;
+    margin: 17% 0% 0% 1%;
+    background-color: #793AED;
+    align-items: center;
+    display: flex;
+    font-size: 90%;
+    font-weight: bold;
+    line-height: 0;
+    font-size: 120%;
+    font-weight: 600;
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+}
+
+input{
+    margin-bottom: 5%;
+    height: 6%;
+
+}
+
+a{
+    margin-right: 5%;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 140%;
+    border-bottom: solid 4px rgba(255, 68, 0, 0) !important;
+}
+
+a:hover{
+    margin-right: 5%;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 140%;
+    border-bottom: solid 4px orangered !important;
+}
+
+#b1{
+    margin-right: 6%;
+    background-color: orangered;
+    border: orangered;
+    border-radius: 40px;
+    color: white;
+    height: 42%;
+    width: 8%;
+    font-weight: 500;
+}
+
+#logo{
+    position: absolute;
+    margin: -17% 0% 0% -18.45%;
+    width: 8.1%;
+    height: 19%;
+}
+
+#jack{
+    margin: 20% 0% 0% 5%;
+    position: absolute;
+    width: 21.1%;
+}
+
+label{
+    color: rgb(1, 29, 56);
+    font-weight: 500;
+    margin-bottom: 1%;
+}
+
+#criarConta{
+    background-color: rgb(192, 10, 10);
+    height: 7.5%;
+}
+

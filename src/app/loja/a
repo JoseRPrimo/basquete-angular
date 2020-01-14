@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="loja.css" />
+    <link rel="stylesheet" href="normalize.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Play&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav>
+        <img id="logo" src="../treinamento-front-end/Imagens/basqueteLOGO.png">
+        <a>LOJA</a>
+        <a>CONTATO</a>
+        <a>JOGOS</a>
+        <a type="button" id="sair" href="cadastro.html">SAIR</a>
+    </nav>
+    <div class="barra">
+        <div class="conteiner">
+            <h1 id="texto1">PRODUTOS</h1>
+            <div #id="linha">
+                <hr>
+                <img id="cl" src="Imagens/carrinhoLaranja.svg">
+            </div>
+        </div>
+        <div class=carrinho>
+            <h3 class="textocarrinho">CARRINHO</h3>
+            <H2 class="textocarrinho">R$: 00,00</H2>
+        </div>
+    </div>
+    <div class=resto>
+        <div class="produtos">
+            <div class="produto" style="background-image: url(../treinamento-front-end/Imagens/blusabranca3.svg)">
+                <div class=preco>
+                    <p>&nbsp;R$:40,00</p>
+                    <img class="cb" src="../treinamento-front-end/Imagens/carrinhoBranco.svg">
+                </div>
+            </div>
+            <div class="produto" style="background-image: url(../treinamento-front-end/Imagens/blusabranca2.svg)">
+                <div class=preco>
+                    <p>&nbsp;R$:50,00</p>
+                    <img class="cb" src="../treinamento-front-end/Imagens/carrinhoBranco.svg">
+                </div>
+            </div>
+            <div class="produto" style="background-image: url(../treinamento-front-end/Imagens/blusabranca1.svg)">
+                <div class=preco>
+                    <p>&nbsp;R$:80,00</p>
+                    <img class="cb" src="../treinamento-front-end/Imagens/carrinhoBranco.svg">
+                </div>
+            </div>
+            <div class="produto" style="background-image: url(../treinamento-front-end/Imagens/blusabranca.svg)">
+                <div class=preco>
+                    <p>&nbsp;R$:10,00</p>
+                    <img class="cb" src="../treinamento-front-end/Imagens/carrinhoBranco.svg">
+                </div>
+            </div>
+        </div>
+        <div class="produtos">
+                <div class="produto" style="background-image: url(../treinamento-front-end/Imagens/canecabranca.svg)">
+                    <!-- <img .class="fotos"src="../treinamento-front-end/Imagens/blusaBranca3.svg"> -->
+                    <div class=preco>
+                        <p>&nbsp;R$:23,00</p>
+                        <img class="cb" src="../treinamento-front-end/Imagens/carrinhoBranco.svg">
+                    </div>
+                </div>
+                <div class="produto"  style="background-image: url(../treinamento-front-end/Imagens/canecabranca.svg)">
+                    <div class=preco>
+                        <p>&nbsp;R$:83,00</p>
+                        <img class="cb" src="../treinamento-front-end/Imagens/carrinhoBranco.svg">
+                    </div>
+                </div>
+                <div class="produto" style="background-image: url(../treinamento-front-end/Imagens/canecabranca.svg)">
+                    <div class=preco>
+                        <p>&nbsp;R$:26,00</p>
+                        <img class="cb" src="../treinamento-front-end/Imagens/carrinhoBranco.svg">
+                    </div>
+                </div>
+                <div class="produto" style="background-image: url(../treinamento-front-end/Imagens/canecabranca.svg)">
+                    <div class=preco>
+                        <p>&nbsp;R$:56,00</p>
+                        <img class="cb" src="../treinamento-front-end/Imagens/carrinhoBranco.svg">
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+</body>
+</html>
